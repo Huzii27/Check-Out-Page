@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Check Out</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<h1>Check Out Page</h1>
+<p>Shipping Address</p>
+
+
+<div class="Cust_Shippinf_info">
+<form action="/action_page.php">
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname" >
+
+
+    <label for="lname">Last name:</label>
+    <input type="text" id="lname" name="lname" ><br><br>
+
+    
+    <label for="AddLn1">Address Line 1:</label>
+    <input type="text" id="AddLn1" name="AddLn1" ><br><br>
+
+
+    <label for="AddLn2">Address Line 2:</label>
+    <input type="text" id="AddLn2" name="AddLn2" value="optional"><br><br>
+
+
+    <label for="zipcode">Zip <code></code>:</label>
+    <input type="text" id="zipcode" name="zipcode" >
+
+    <label for="State">Choose a State:</label>
+
+         <select id="State">
+          <option value="NY">New York</option>
+          <option value="FL">Florida</option>
+          <option value="NJ">New Jershey</option>
+          <option value="OH">Ohio</option>
+       </select>
+<br><br>
+    <label for="City">City:</label>
+    <input type="text" id="City" name="City" ><br><br>
+
+    <label for="Phone">Phone Number:</label>
+    <input type="text" id="Phone" name="Phone" ><br><br>
+
+    <label for="textarea">Special Instruction</label><br><br>
+    <textarea id="Type" name="freeform" rows="4" cols="50">
+    </textarea><br><br>
+
+
+
+    <input type="submit" value="Credit Card">
+    <input type="reset" value="Reset">
+  </form> 
+ </div>
+
+    <div class="Cart">
+        <h2 style="float:right;">Items in Cart</h2>
+    </div>
+
+  <img style="float:right;" src="t-shirt.png" alt="T shirt" class="image1">
+  <img style="float:right;" src="jeans.png" alt="Jeans" class="image2">
+
+<div class="Items">
+  <h2 style="float:right;">Polo</h2>
+</div>
+
+<div class="Items2">
+    <h2 style="float:right;">Jeans</h2>
+</div>
+
+
+
+
+
+</body>
+</html>

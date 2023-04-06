@@ -1,0 +1,40 @@
+body {
+    background-color: gray;
+  }
+  h1 {
+    color: red;
+    text-align: center;
+  }
+  p {
+    color: black;
+  }
+
+  h2 {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+  }
+  .image1{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    right: 400px;
+  }
+  .image2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 150px;
+    right: 280px;
+  }
+  .Items{
+    position: absolute;
+    top: 200px;
+    right: 130px;
+  }
+  .Items2{
+    position: absolute;
+    top: 200px;
+    right: 0px;
+  }
